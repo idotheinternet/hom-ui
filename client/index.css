@@ -133,10 +133,9 @@ input:focus {
 }
 #subMenu {
 	position: absolute;
-	z-index: 1;
 	top: 60px;
 	left: calc(100% - 300px);
-	transform: translateX(110%);
+	transform: translateX(100%);
 	width: 300px;
 	height: auto;
 	background-color: #fff;
@@ -154,6 +153,7 @@ input:focus {
 	padding: 25px 0px;
 	color: gray;
 	border-bottom: 1px solid #e6e6e6;
+	cursor: pointer;
 }
 #sub-bottom {
 	position: relative;
