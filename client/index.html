@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fonts/all.min.css">
+  </head>
+  <body>
+	<div id="top">
+		<span style="color: gray"><i class="fal fa-user" style="margin-right: 10px; color: #3399ff"></i>Stephen Baldwin</span>
+		<div id="search">
+			<div class="search-side" id="cogs">
+				<i class="fal fa-cogs"></i>
+			</div>
+			<input id="searchBar" placeholder="Search projects..">
+			<div class="search-side">
+				<i class="fal fa-search"></i>
+			</div>
+			<div id="categories">
+				<div class="category active" id="">projects</div>
+				<div class="category" id="">customers</div>
+				<div class="category" id="">purchase orders</div>
+				<div class="category" id="">something</div>
+				<div class="category" id="">something else</div>
+			</div>
+		</div>
+		<div id="subToggle">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<div id="subMenu">
+		<div class="sub-item">Sub item</div>
+		<div class="sub-item">Sub item</div>
+		<div class="sub-item">Sub item</div>
+		<div class="sub-item">Sub item</div>
+		<div class="sub-item" style="border-bottom: none">Sub item</div>
+		<div id="sub-bottom">
+			<div style="border-right: 1px solid #e6e6e6">Settings</div>
+			<div>Logout</div>
+		</div>
+	</div>
+	<div id="nav">
+		<div id="logo">CRM</div>
+		<div class="tab active" id="dashboard">
+			<i class="fal fa-home"></i>
+			Dashboard
+			<span></span>
+		</div>
+		<div class="tab" id="compliance">
+			<i class="fal fa-clipboard-check"></i>
+			Compliance
+			<span></span>
+		</div>
+		<div class="tab" id="reports">
+			<i class="fal fa-file-alt"></i>
+			Reports
+			<span></span>
+		</div>
+		<div class="tab" id="projects">
+			<i class="fal fa-boxes"></i>
+			Project activities
+			<span></span>
+		</div>
+		<div class="tab" id="projects">
+			<i class="fal fa-user-shield"></i>
+			Administrator
+			<span></span>
+		</div>
+		<div style="width: 100%; padding: 25px 0px; text-align: center;"><i class="fal fa-bell" style="color: #00cc99; font-size: 30px"></i></div>
+		<div id="notifications">
+			<div style="position: relative; margin: auto; top: -8px; width: 16px; height: 16px; background-color: #fff; transform: rotate(45deg)"></div>
+			<div style="width: 100%; font-size: 16px; color: gray; text-align: center; padding-top: 25px;">YOUR INBOX IS EMPTY!</div>
+		</div>
+	</div>
+	<div id="view"></div>
+    <script src="framework.js"></script>
+    <script src="nav.js"></script>
+    <script src="search.js"></script>
+    <script src="sub-menu.js"></script>
+  </body>
+</html>
